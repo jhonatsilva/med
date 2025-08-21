@@ -1,0 +1,71 @@
+prompt --application/shared_components/user_interface/lovs/list_blood_type
+begin
+--   Manifest
+--     LIST_BLOOD_TYPE
+--   Manifest End
+wwv_flow_imp.component_begin (
+ p_version_yyyy_mm_dd=>'2024.11.30'
+,p_release=>'24.2.7'
+,p_default_workspace_id=>7898528207821068
+,p_default_application_id=>100
+,p_default_id_offset=>0
+,p_default_owner=>'WKSP_MDC'
+);
+wwv_flow_imp_shared.create_list_of_values(
+ p_id=>wwv_flow_imp.id(8141330204809659)
+,p_lov_name=>'LIST_BLOOD_TYPE'
+,p_lov_query=>'.'||wwv_flow_imp.id(8141330204809659)||'.'
+,p_location=>'STATIC'
+,p_version_scn=>41727865497355
+);
+wwv_flow_imp_shared.create_static_lov_data(
+ p_id=>wwv_flow_imp.id(8141641916809659)
+,p_lov_disp_sequence=>1
+,p_lov_disp_value=>'A+'
+,p_lov_return_value=>'A+'
+);
+wwv_flow_imp_shared.create_static_lov_data(
+ p_id=>wwv_flow_imp.id(8142027539809659)
+,p_lov_disp_sequence=>2
+,p_lov_disp_value=>'A-'
+,p_lov_return_value=>'A-'
+);
+wwv_flow_imp_shared.create_static_lov_data(
+ p_id=>wwv_flow_imp.id(8142451569809659)
+,p_lov_disp_sequence=>3
+,p_lov_disp_value=>'B+'
+,p_lov_return_value=>'B+'
+);
+wwv_flow_imp_shared.create_static_lov_data(
+ p_id=>wwv_flow_imp.id(8142876280809660)
+,p_lov_disp_sequence=>4
+,p_lov_disp_value=>'B-'
+,p_lov_return_value=>'B-'
+);
+wwv_flow_imp_shared.create_static_lov_data(
+ p_id=>wwv_flow_imp.id(8143297511809660)
+,p_lov_disp_sequence=>5
+,p_lov_disp_value=>'AB+'
+,p_lov_return_value=>'AB+'
+);
+wwv_flow_imp_shared.create_static_lov_data(
+ p_id=>wwv_flow_imp.id(8143620613809660)
+,p_lov_disp_sequence=>6
+,p_lov_disp_value=>'AB-'
+,p_lov_return_value=>'AB-'
+);
+wwv_flow_imp_shared.create_static_lov_data(
+ p_id=>wwv_flow_imp.id(8144098532809660)
+,p_lov_disp_sequence=>7
+,p_lov_disp_value=>'O+'
+,p_lov_return_value=>'O+'
+);
+wwv_flow_imp_shared.create_static_lov_data(
+ p_id=>wwv_flow_imp.id(8144485414809660)
+,p_lov_disp_sequence=>8
+,p_lov_disp_value=>'O-'
+,p_lov_return_value=>'O-'
+);
+wwv_flow_imp.component_end;
+end;
+/

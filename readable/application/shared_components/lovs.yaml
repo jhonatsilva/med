@@ -1,0 +1,181 @@
+---
+- # ====== List of Values: PATIENT.FIRST_NAME_PTT ==============
+  id: 8080025927058429
+  identification: 
+    name: PATIENT.FIRST_NAME_PTT
+
+  subscription: 
+    version-number: 41727855199219
+
+  source: 
+    location: Local Database
+    type: Table / View
+    table-owner: Parsing Schema
+    table-name: PATIENT
+
+  column-mapping: 
+    return: NUM_SEQ_PTT
+    display: FIRST_NAME_PTT
+    default-sort: FIRST_NAME_PTT
+    sort-direction: Ascending (Nulls Last)
+
+- # ====== List of Values: LIST_TYPE_PHONE =====================
+  id: 8129006645649327
+  identification: 
+    name: LIST_TYPE_PHONE
+
+  subscription: 
+    version-number: 41727863472134
+
+  source: 
+    location: Static Values
+
+  entries: 
+  - # ====== Entry: Residêncial ==================================
+    id: 8129379704649329
+    entry: 
+      sequence: 1
+      display: Residêncial
+      return: R
+
+  - # ====== Entry: Celular  =====================================
+    id: 8129736813649330
+    entry: 
+      sequence: 2
+      display: 'Celular '
+      return: S
+
+  - # ====== Entry: Corporativo ==================================
+    id: 8130196486649330
+    entry: 
+      sequence: 3
+      display: Corporativo
+      return: C
+
+- # ====== List of Values: FROM_TO_YES_NO ======================
+  id: 8130881584662555
+  identification: 
+    name: FROM_TO_YES_NO
+
+  subscription: 
+    version-number: 41727863620340
+
+  source: 
+    location: Static Values
+
+  entries: 
+  - # ====== Entry: Sim ==========================================
+    id: 8131189038662555
+    entry: 
+      sequence: 1
+      display: Sim
+      return: Y
+
+  - # ====== Entry: Não ==========================================
+    id: 8131530307662556
+    entry: 
+      sequence: 2
+      display: Não
+      return: N
+
+- # ====== List of Values: LIST_GENDER =========================
+  id: 8139789509792896
+  identification: 
+    name: LIST_GENDER
+
+  subscription: 
+    version-number: 41727865259563
+
+  source: 
+    location: Static Values
+
+  entries: 
+  - # ====== Entry: Masculino ====================================
+    id: 8140066651792896
+    entry: 
+      sequence: 1
+      display: Masculino
+      return: M
+
+  - # ====== Entry: Feminino =====================================
+    id: 8140435986792896
+    entry: 
+      sequence: 2
+      display: Feminino
+      return: F
+
+  - # ====== Entry: Outros =======================================
+    id: 8140820880792896
+    entry: 
+      sequence: 3
+      display: Outros
+      return: O
+
+- # ====== List of Values: LIST_BLOOD_TYPE =====================
+  id: 8141330204809659
+  identification: 
+    name: LIST_BLOOD_TYPE
+
+  subscription: 
+    version-number: 41727865497355
+
+  source: 
+    location: Static Values
+
+  entries: 
+  - # ====== Entry: A+ ===========================================
+    id: 8141641916809659
+    entry: 
+      sequence: 1
+      display: A+
+      return: A+
+
+  - # ====== Entry: A- ===========================================
+    id: 8142027539809659
+    entry: 
+      sequence: 2
+      display: A-
+      return: A-
+
+  - # ====== Entry: B+ ===========================================
+    id: 8142451569809659
+    entry: 
+      sequence: 3
+      display: B+
+      return: B+
+
+  - # ====== Entry: B- ===========================================
+    id: 8142876280809660
+    entry: 
+      sequence: 4
+      display: B-
+      return: B-
+
+  - # ====== Entry: AB+ ==========================================
+    id: 8143297511809660
+    entry: 
+      sequence: 5
+      display: AB+
+      return: AB+
+
+  - # ====== Entry: AB- ==========================================
+    id: 8143620613809660
+    entry: 
+      sequence: 6
+      display: AB-
+      return: AB-
+
+  - # ====== Entry: O+ ===========================================
+    id: 8144098532809660
+    entry: 
+      sequence: 7
+      display: O+
+      return: O+
+
+  - # ====== Entry: O- ===========================================
+    id: 8144485414809660
+    entry: 
+      sequence: 8
+      display: O-
+      return: O-
+

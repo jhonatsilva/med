@@ -1,0 +1,14 @@
+---
+- # ====== Application Item: AI_CONTRY_AREA ====================
+  id: 8123527666327435
+  identification: 
+    name: AI_CONTRY_AREA
+    scope: Application
+
+  security: 
+    session-state-protection: Restricted - May not be set from browser
+    escape-special-characters: true
+
+  subscription: 
+    version-number: 41727858745625
+
